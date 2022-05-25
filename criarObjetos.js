@@ -22,14 +22,21 @@ var novaCanetaPreta = new Caneta();
 novaCanetaPreta.cor = "Preta";
 novaCanetaPreta.dimensao = "5cm";
 novaCanetaPreta.marca = "Bic";
+console.log({novaCanetaPreta});
+
 
 var novaCanetaAzul = new Caneta();
 novaCanetaAzul.cor = "Azul";
 novaCanetaAzul.dimensao = "5cm";
 novaCanetaAzul.marca = "Bic";
-
-
-console.log({novaCanetaPreta});
 console.log({novaCanetaAzul});
+
+
+var novaCanetaRosa = {
+    cor: "Rosa",
+    marca: "Bic",
+    dimensao: "10cm",
+};
+console.log(novaCanetaRosa);
 
 
