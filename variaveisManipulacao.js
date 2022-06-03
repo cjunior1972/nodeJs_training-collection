@@ -10,6 +10,6 @@ const usuario = {
 }
 console.log(usuario)
 
-
 usuario.idade = 33;
 console.log(usuario)
+
